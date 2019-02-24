@@ -1,2 +1,0 @@
-# ReactPoll
-Created with CodeSandbox

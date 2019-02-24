@@ -1,0 +1,20 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.poll-input form .radios {
+  display: flex;
+}
+.poll-input form .radio {
+  /* display: inline; */
+  /* background-color: red; */
+  margin: 0 15px;
+  padding: 10px 0;
+}
+
+.poll-input form .submit {
+  /* display: block; */
+  margin: 10px auto;
+  /* background-color: blue; */
+}
