@@ -86,12 +86,12 @@ class Poll extends React.Component {
         animateScale: true
       },
       scales: {
-        xAxes: [
+        yAxes: [
           {
             barThickness: 20
           }
         ],
-        yAxes: [
+        xAxes: [
           {
             ticks: {
               beginAtZero: true,
@@ -112,7 +112,7 @@ class Poll extends React.Component {
       <div className="Poll">
         <h2>Which games would you like to play?</h2>
         <div style={{ width: "90%", margin: "0 auto" }}>
-          <Bar data={data} options={options} />
+          <HorizontalBar data={data} options={options} />
 
           <div className="poll-input">
             <form onSubmit={this.handleFormSubmit}>
