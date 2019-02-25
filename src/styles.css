@@ -1,14 +1,18 @@
 .App {
   font-family: sans-serif;
   text-align: center;
+  width: 100%;
 }
 
 .poll-input form .radios {
   display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
 }
 .poll-input form .radio {
   /* display: inline; */
   /* background-color: red; */
+  flex-wrap: wrap;
   margin: 0 15px;
   padding: 10px 0;
 }

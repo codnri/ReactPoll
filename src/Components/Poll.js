@@ -111,7 +111,7 @@ class Poll extends React.Component {
     return (
       <div className="Poll">
         <h2>Which games would you like to play?</h2>
-        <div style={{ width: "500px", margin: "0 auto" }}>
+        <div style={{ width: "90%", margin: "0 auto" }}>
           <Bar data={data} options={options} />
 
           <div className="poll-input">
